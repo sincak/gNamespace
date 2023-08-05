@@ -1,0 +1,15 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="demo.xsd" elementFormDefault="qualified">
+<xsd:element name="Changeable">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="Text" type="xsd:string" minOccurs="1"/>
+<xsd:element name="Segment" type="xsd:string" minOccurs="1"/>
+<xsd:element name="Example" type="xsd:string" minOccurs="1"/>
+<xsd:element name="Practice" type="xsd:string" minOccurs="1"/>
+<xsd:element name="Image" type="xsd:string" minOccurs="1"/>
+</xsd:sequence>
+<xsd:attribute name="Formula"/>
+<xsd:attribute name="Statement"/>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
